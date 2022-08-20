@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    padding: 0 !important;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+}
+
+/*--------------------------Home Section-----------------------------*/
+
+#home{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.welcome-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.home-img-resize{
+    height: 300px;
+    padding-bottom: 5%;
+    float: right;
+    border-radius: 70px;
+}
+
+/*--------------------------About Me Section-----------------------------*/
+
+#about-me{
+    padding: 80px 0;
+}
+
+.about-me-img{
+    width: 300px;
+    margin-top: 4px;
+    border-radius: 50%;
+    border: 4px solid #a517ba;
+    /*--padding: 5px;--*/
+}
+
+.about{
+    padding-top: 5px;
+}
+
+.title{
+    text-align: center;
+    padding-bottom: 60px;
+    color: #a517ba;
+    font-size: xx-large;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+/*--------------------------Education Qualification Section-----------------------------*/
+
+#education{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.edu-table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    background-color: #AF7AC5 ;
+
+    text-align: center;
+    color: #fff;
+  }
+
+/*--------------------------Contact Section-----------------------------*/
+#contact{
+    background: #fff;
+    padding: 100px 0;
+}
+
+.social-icons img{
+    width: 80px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+
+/*--------------------------Footer Section-----------------------------*/
+
+#footer{
+    padding: 20px 0;
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    color: #fff;
+}
+
+.phone{
+    padding-left: 350px;
+    float: left;
+}
+
+.container a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.container a:hover{
+    text-decoration: underline;
+    color: teal;
+}
